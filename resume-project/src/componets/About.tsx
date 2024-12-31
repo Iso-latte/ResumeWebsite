@@ -4,7 +4,7 @@ function About() {
     return (
         <div className="container">
             <div className="colOne">
-                <img width="70%" height="200px" src="/user.png" alt="person" />
+                <img width="70%" height="200px" src="./user.png" alt="person" />
             </div>
             <div className="colTwo">
                 <div className="Title">
