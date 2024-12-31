@@ -1,0 +1,65 @@
+.navbar {
+  background-color: #20282b; /* Light background */
+  padding: 10px 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+.navbar .container-fluid {
+  display: flex;
+  justify-content: space-between; /* Space between left and right sections */
+  align-items: center; /* Align content vertically */
+  padding: 0;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  padding-left: 10px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.navbar-right .backdrop {
+  display: flex;
+  align-items: center; /* Center links vertically */
+  gap: 15px; /* Spacing between icons */
+  background-color: rgba(255, 255, 255, 1); /* White background with slight transparency */
+  padding: 10px 15px; /* Padding inside the background */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 1); /* Optional: Subtle shadow for depth */
+}
+
+.navbar-left .backdrop {
+  display: flex;
+  align-items: center; /* Center links vertically */
+  gap: 15px; /* Spacing between icons */
+  background-color: rgba(255, 255, 255, 1); /* White background with slight transparency */
+  padding: 10px 15px; /* Padding inside the background */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 1); /* Optional: Subtle shadow for depth */
+  font-family: "Times New Roman", Times, serif;
+}
+
+.navbar-right a img,
+.navbar-left img {
+  transition: transform 0.2s ease;
+}
+
+.navbar-right a img:hover{
+  transform: scale(1.4); /* Slight zoom effect on hover */
+}
+.navbar-left:hover {
+  transform: scale(1.2); /* Slight zoom effect on hover */
+}
+
+.navbar-left span {
+  font-size: 1rem; /* Adjust text size */
+  font-weight: bold; /* Make the text bold */
+}
+
+.navbar a {
+  text-decoration: none; /* Remove underline from links */
+}

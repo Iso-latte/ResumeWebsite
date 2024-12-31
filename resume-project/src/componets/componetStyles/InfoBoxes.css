@@ -1,0 +1,66 @@
+.container {
+  background-color: #20282b; /* Light background */
+  max-width: 80%;
+  margin: 100px auto; /* Center the container horizontally */
+  border-radius: 12px;
+  display: flex; /* Use flexbox to align columns side by side */
+  justify-content: flex-start; /* Align items to the start of the container (left) */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out; /* Smooth zoom on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 1); /* Optional: Subtle shadow for depth */
+  box-sizing: border-box; /* Ensure padding is included in width calculations */
+}
+
+.container:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.container .colOne {
+  flex-basis: 30%; /* Set a base width for colOne */
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .colOne img {
+  width: 100%; /* Ensure the image adjusts */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: Rounded image corners */
+}
+
+.container .colTwo {
+  flex-grow: 1; /* Allow colTwo to grow and take up remaining space */
+  background-color: #ffffff;
+  padding: 10px; /* Uniform padding all around */
+  margin: 2% 0; /* Consistent spacing */
+  margin-right: 15px;
+  text-align: center;
+  border-radius: 12px;
+  box-sizing: border-box; /* Ensure padding is accounted for in the width */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container .colTwo ul {
+  list-style-type: none; /* Remove bullet points or numbering */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.container .colTwo .Title {
+  text-align: center;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack columns vertically on smaller screens */
+  }
+
+  .container .colOne,
+  .container .colTwo {
+    width: 100%; /* Full width for smaller screens */
+  }
+}
+
