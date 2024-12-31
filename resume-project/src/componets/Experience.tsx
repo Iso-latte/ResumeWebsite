@@ -4,7 +4,7 @@ function Experience() {
     return (
         <div className="container">
             <div className="colOne">
-                <img width="70%" height="200px" src="/experience.png" alt="Head-with-stars" />
+                <img width="70%" height="200px" src="./experience.png" alt="Head-with-stars" />
             </div>
             <div className="colTwo">
                 <div className="Title">

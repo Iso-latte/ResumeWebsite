@@ -4,7 +4,7 @@ function TechSkills() {
     return (
         <div className="container">
             <div className="colOne">
-                <img width="70%" height="200px" src="/cognitive-training.png" alt="Head-with-gears" />
+                <img width="70%" height="200px" src="./cognitive-training.png" alt="Head-with-gears" />
             </div>
             <div className="colTwo">
                 <div className="Title">

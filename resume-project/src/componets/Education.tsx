@@ -4,7 +4,7 @@ function Education() {
     return (
         <div className="container">
             <div className="colOne">
-                <img width="70%" height="200px" src="/alumni.png" alt="GradCap" />
+                <img width="70%" height="200px" src="./alumni.png" alt="GradCap" />
             </div>
             <div className="colTwo">
                 <div className="Title">
