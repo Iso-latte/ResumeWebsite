@@ -1,29 +1,81 @@
-import './componetStyles/NavBar.css';
+import { useState } from 'react';
+import './componetStyles/Navbar.css';
+import { Link } from 'react-router-dom'; 
 
-function NavBar() {
+function Navbar() {
+  const [isCollapsed, setIsCollapsed] = useState(true);
+
+  // Toggle collapse state
+  const handleToggle = () => {
+    setIsCollapsed(!isCollapsed);
+  };
+
   return (
-    <nav className="navbar fixed-top">
+    <nav className="navbar fixed-top" data-bs-theme="dark">
       <div className="container-fluid">
-        {/* Left section: Logo and name */}
+        {/* Left section: Logo and toggler */}
         <div className="navbar-left">
-            <div className="backdrop">  
+          <button 
+            className="navbar-toggler" 
+            type="button" 
+            onClick={handleToggle} 
+            aria-controls="navbarNavAltMarkup" 
+            aria-expanded={!isCollapsed} 
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          {/* 
+          <div className="backdrop">  
                 <img width="25" height="25" src="./command-line.png" alt="Logo" />
-                <span>Joaquin R. Trujillo</span>
+                <a>Joaquin R. Trujillo</a>
             </div>
+          */}
         </div>
 
-        {/* Right section: Links */}
+        {/* Right section: Social Media links */}
         <div className="navbar-right">
-           <div className="backdrop">
-           <a href="https://www.youtube.com/channel/UCJ9e_cVQHkYrV3nhinpNKVw" target="_blank" rel="noopener noreferrer">
-                <img width="28" height="25" src="./yt_icon_rgb.png" alt="Youtube" />
+          <div className="backdrop">
+            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+              <img src="./yt_icon_rgb.png" alt="YouTube" width="28" height="25" />
             </a>
-            <a href="https://github.com/Iso-latte" target="_blank" rel="noopener noreferrer">
-                <img width="25" height="25" src="./github-mark.png" alt="GitHub" />
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <img src="./github-mark.png" alt="GitHub" width="25" height="25" />
             </a>
-            <a href="https://www.linkedin.com/in/joaquin-trujillo-6476641a1/" target="_blank" rel="noopener noreferrer">
-                <img width="28" height="25" src="./LI-In-Bug.png" alt="LinkedIn" />
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+              <img src="./LI-In-Bug.png" alt="LinkedIn" width="28" height="25" />
             </a>
+          </div>
+        </div>
+
+        {/* Collapsible menu */}
+        <div 
+          className={`collapse navbar-collapse ${isCollapsed ? '' : 'show'}`} 
+          id="navbarNavAltMarkup"
+        >
+          <div className="navbar-nav">
+
+            <Link to="/" className='nav-link'>
+              <img src="./Home.png" alt="House_photo" />
+              Home
+            </Link>
+            {/* 
+            <Link to="/projects/" className='nav-link'>
+              <img src="./Projects.png" alt="Pile_of_papers" />
+              Projects
+            </Link>  
+
+            <Link to="/timeline/" className='nav-link'>
+              <img src="./Timeline.png" alt="Linked-list" />
+              Timeline
+            </Link>  
+
+            <Link to="/connect/" className='nav-link'>
+              <img src="./Email.png" alt="Mail-letter" />
+              Connect
+            </Link>  
+            */}
+          
           </div>
         </div>
       </div>
@@ -31,4 +83,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Navbar;
