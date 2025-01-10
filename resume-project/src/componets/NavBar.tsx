@@ -47,7 +47,7 @@ function Navbar() {
           id="navbarNavAltMarkup"
         >
           <div className="navbar-nav">
-            <a className="nav-link-top" href="#">Home</a>
+            <a className="nav-link" href="#">Home</a>
             <a className="nav-link" href="#">Projects</a>
             <a className="nav-link" href="#">Timeline</a>
           </div>

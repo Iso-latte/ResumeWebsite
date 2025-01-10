@@ -42,8 +42,9 @@
   right: 0;
   background-color: #5a5d5e;
   z-index: 1029;
-  padding: 10px;
+  padding: 15px;
   text-align: center;
+  border-radius: 0px 0px 8px 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
   opacity: 0;
   transition: opacity 0.3s ease, transform 0.3s ease;
@@ -81,19 +82,29 @@
 }
 
 .navbar-nav .nav-link {
-  color: rgb(255, 255, 255); /* White color */
-  border-bottom: 2px solid rgb(255, 255, 255); /* Bottom border */
-  font-size: 18px; /* 18px text size */
-  padding: 10px; /* Padding for better spacing */
-  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  color: white;
+  padding: 10px 15px;
+  border-bottom: 2px solid transparent;
+  font-size: 24px;
+  padding: 12px 20px;
+  font-weight: 300; /* Make links bold */
+  letter-spacing: 1px; /* Slight spacing for readability */
+  font-family: "Times New Roman", Times, serif;
+  transition: all 0.3s ease;
+
 }
 
-.navbar-nav .nav-link-top {
-  color: rgb(255, 255, 255); /* White color */
-  text-decoration: none;
-  border-bottom: 2px solid rgb(255, 255, 255); /* Bottom border */
-  border-top: 2px solid rgb(255, 255, 255); /* Top border */
-  font-size: 18px; /* 18px text size */
-  padding: 10px; /* Padding for better spacing */
-  transition: all 0.3s ease; /* Smooth transition for hover effects */
+/* Hover effect for nav-link */
+.navbar-nav .nav-link:hover {
+  color: #c6d8ff; /* Golden color on hover */
+  background-color: rgba(255, 255, 255, 0.1); /* Slight background color change */
+  border-bottom: 2px solid #c6d8ff; /* Golden underline effect */
+}
+
+
+@media (max-width: 768px) {
+  .collapse.navbar-collapse {
+    width: 100%;
+    left: 0;
+  }
 }
