@@ -36,7 +36,7 @@ function Navbar() {
         {/* Right section: Social Media links */}
         <div className="navbar-right">
           <div className="backdrop">
-            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.youtube.com/@isolatte3739" target="_blank" rel="noopener noreferrer">
               <img src="./yt_icon_rgb.png" alt="YouTube" width="28" height="25" />
             </a>
             <a href="https://github.com" target="_blank" rel="noopener noreferrer">
@@ -59,7 +59,6 @@ function Navbar() {
               <img src="./Home.png" alt="House_photo" />
               Home
             </Link>
-            {/* 
             <Link to="/projects/" className='nav-link'>
               <img src="./Projects.png" alt="Pile_of_papers" />
               Projects
@@ -74,8 +73,6 @@ function Navbar() {
               <img src="./Email.png" alt="Mail-letter" />
               Connect
             </Link>  
-            */}
-          
           </div>
         </div>
       </div>
