@@ -47,9 +47,15 @@ function Navbar() {
           id="navbarNavAltMarkup"
         >
           <div className="navbar-nav">
-            <a className="nav-link" href="#">Home</a>
-            <a className="nav-link" href="#">Projects</a>
-            <a className="nav-link" href="#">Timeline</a>
+            <a className="nav-link" href="#">
+            <img src="./Home.png" alt="House_photo" />
+              Home</a>
+            <a className="nav-link" href="#">
+            <img src="./Projects.png" alt="Pile_of_papers" />
+              Projects</a>
+            <a className="nav-link" href="#">
+            <img src="./Timeline.png" alt="Linked_list" />
+              Timeline</a>
           </div>
         </div>
       </div>
