@@ -1,19 +1,22 @@
-import NavBar from "./componets/NavBar";
-import Education from "./componets/Education";
-import TechSkills from "./componets/TechSkills";
-import Experience from "./componets/Experience";
-import About from "./componets/About";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./HomePage";
+import Projects from "./Projects";
+import Timeline from "./Timeline";
+import Connect from "./Connect";
 
 function App() {
-  return <div>
-          <NavBar/>
-          <About/>
-          <Education/>
-          <TechSkills/>
-          <Experience/>
-        </div>
+  return (
+    <Router>
+      <div>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/timeline" element={<Timeline />} />
+          <Route path="/connect" element={<Connect />} />
+        </Routes>
+      </div>
+    </Router>
+  );
 }
 
 export default App;

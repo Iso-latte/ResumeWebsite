@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './componetStyles/Navbar.css';
+import { Link } from 'react-router-dom'; 
 
 function Navbar() {
   const [isCollapsed, setIsCollapsed] = useState(true);
@@ -53,18 +54,27 @@ function Navbar() {
           id="navbarNavAltMarkup"
         >
           <div className="navbar-nav">
-            <a className="nav-link" href="#">
-            <img src="./Home.png" alt="House_photo" />
-              Home</a>
-            <a className="nav-link" href="#">
-            <img src="./Projects.png" alt="Pile_of_papers" />
-              Projects</a>
-            <a className="nav-link" href="#">
-            <img src="./Timeline.png" alt="Linked_list" />
-              Timeline</a>
-            <a className="nav-link" href="#">
-            <img src="./Email.png" alt="Mail_piece" />
-              Connect</a>
+
+            <Link to="/" className='nav-link'>
+              <img src="./Home.png" alt="House_photo" />
+              Home
+            </Link>
+
+            <Link to="/projects/" className='nav-link'>
+              <img src="./Projects.png" alt="Pile_of_papers" />
+              Projects
+            </Link>  
+
+            <Link to="/timeline/" className='nav-link'>
+              <img src="./Timeline.png" alt="Linked-list" />
+              Timeline
+            </Link>  
+
+            <Link to="/connect/" className='nav-link'>
+              <img src="./Email.png" alt="Mail-letter" />
+              Connect
+            </Link>  
+          
           </div>
         </div>
       </div>
