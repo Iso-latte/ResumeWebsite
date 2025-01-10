@@ -23,7 +23,7 @@
   gap: 10px;
 }
 
-.navbar-right .backdrop {
+.navbar-right .backdrop, .navbar-left .backdrop {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -31,6 +31,7 @@
   padding: 10px 15px;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /* Collapse Navbar */
@@ -43,7 +44,7 @@
   background-color: rgba(32, 40, 48, 0.9);
   z-index: 1029;
   padding: 15px;
-  text-align: center;
+  text-align: left;
   border-radius: 0px 0px 3px 3px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
   opacity: 0;
@@ -61,9 +62,6 @@
 /* Hamburger Button */
 .navbar-toggler {
   margin-right: 10px;
-  background-color: transparent;
-  border: none;
-  color: white;
 }
 
 /* Hover Effects */

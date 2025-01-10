@@ -24,6 +24,12 @@ function Navbar() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
+          {/* 
+          <div className="backdrop">  
+                <img width="25" height="25" src="./command-line.png" alt="Logo" />
+                <a>Joaquin R. Trujillo</a>
+            </div>
+          */}
         </div>
 
         {/* Right section: Social Media links */}
@@ -56,6 +62,9 @@ function Navbar() {
             <a className="nav-link" href="#">
             <img src="./Timeline.png" alt="Linked_list" />
               Timeline</a>
+            <a className="nav-link" href="#">
+            <img src="./Email.png" alt="Mail_piece" />
+              Connect</a>
           </div>
         </div>
       </div>
