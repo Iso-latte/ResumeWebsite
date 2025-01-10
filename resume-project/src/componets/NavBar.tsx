@@ -59,7 +59,7 @@ function Navbar() {
               <img src="./Home.png" alt="House_photo" />
               Home
             </Link>
-
+            {/* 
             <Link to="/projects/" className='nav-link'>
               <img src="./Projects.png" alt="Pile_of_papers" />
               Projects
@@ -74,6 +74,7 @@ function Navbar() {
               <img src="./Email.png" alt="Mail-letter" />
               Connect
             </Link>  
+            */}
           
           </div>
         </div>
