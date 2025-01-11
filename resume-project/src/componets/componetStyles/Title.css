@@ -1,5 +1,5 @@
 .container-title {
-    background-image: url('./gif.gif'); /* Replace with the actual path to your GIF */
+    background-image: url('./public/gif.gif'); /* Replace with the actual path to your GIF */
     background-size: cover; /* Ensures the GIF covers the entire container */
   
     background-repeat: no-repeat; /* Prevents repeating the GIF */
