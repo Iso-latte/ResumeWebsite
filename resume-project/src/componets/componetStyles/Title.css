@@ -1,0 +1,55 @@
+.container-title {
+    background-image: url('./gif.gif'); /* Replace with the actual path to your GIF */
+    background-size: cover; /* Ensures the GIF covers the entire container */
+  
+    background-repeat: no-repeat; /* Prevents repeating the GIF */
+    max-width: 80%; /* Match the container's max-width */
+    height: 250px; /* Set height to auto to allow content to determine the height */
+    border: 5px solid #20282b; /* Optional: Add a border for contrast */
+    border-radius: 12px;
+    margin: 100px auto; /* Center the container horizontally */
+    display: flex; /* Use flexbox to align columns side by side */
+    padding: 20px;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    transition: transform 0.3s ease-in-out; /* Smooth zoom on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 1); /* Optional: Subtle shadow for depth */
+    box-sizing: border-box; /* Ensure padding is included in width calculations */
+}
+
+.background {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 90%;
+    height: 90%;
+    border-radius: 12px;
+    border: 5px solid #20282b;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 1); /* Optional: Subtle shadow for depth */
+    display: flex; /* Flexbox for inner alignment */
+    align-items: center; /* Centers inner content vertically */
+    justify-content: center; /* Centers inner content horizontally */
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+.container-title .row {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally in the row */
+    justify-content: center; /* Center items vertically in the row */
+    gap: 5px; /* Adjust gap between items */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title-words {
+    color: #000000; /* Set text color */
+    text-align: center; /* Center text */
+}
