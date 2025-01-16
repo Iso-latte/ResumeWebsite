@@ -94,7 +94,7 @@
 
 /* Hover effect for nav-link */
 .navbar-nav .nav-link:hover {
-  color: #c6d8ff; /* Golden color on hover */
+  transform: scale(1.01);
   background-color: rgba(255, 255, 255, 0.1); /* Slight background color change */
   border-bottom: 2px solid #c6d8ff; /* Golden underline effect */
 }
