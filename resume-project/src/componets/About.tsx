@@ -15,15 +15,15 @@ const About: React.FC = () => {
             </div>
             <div className="colTwo">
                 <div className="Title">
-                    <h3>
+                    <h1>
                         <b>
                             <u>About</u>
                         </b>
-                    </h3>
+                    </h1>
                 </div>
                 <p>
                     <br />
-                    <b>Who I am</b>
+                    <h4><b>Who I am</b></h4>
                     <ul>
                         <li>
                             - I graduated high school and moved to Denver to pursue higher education in Computer Science and Mathematics.
@@ -36,7 +36,7 @@ const About: React.FC = () => {
                         </li>
                     </ul>
                     <br />
-                    <b>Projects & Growth</b>
+                    <h4><b>Projects & Growth</b></h4>
                     <ul>
                         <li>
                             - During my studies, I explored Linux distributions using Raspberry Pi and VirtualBox, enhancing my understanding of operating systems.
@@ -52,7 +52,7 @@ const About: React.FC = () => {
                         </li>
                     </ul>
                     <br />
-                    <b>Future Goals</b>
+                    <h4><b>Future Goals</b></h4>
                     <ul>
                         <li>
                             - Currently preparing for CompTIA certifications to strengthen my technical credentials.
@@ -68,6 +68,8 @@ const About: React.FC = () => {
                         </li>
                     </ul>
                 </p>
+                <br />
+                <br />
             </div>
         </div>
     );

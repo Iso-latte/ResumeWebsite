@@ -20,15 +20,29 @@ const Experience: React.FC = () => {
             </div>
             <div className="colTwo">
                 <div className="Title">
-                    <h3>
+                    <h1>
                         <b>
                             <u>Experience</u>
                         </b>
-                    </h3>
+                    </h1>
                 </div>
                 <br />
-                <b>Assistant Manager</b>
+                <h4><b>IT Migration Technician</b></h4>
+                Apex Systems / CompuCom, Denver, CO <br />
+                June, 2025
                 <br />
+                <br />
+                <ul>
+                    <li>- Performed detailed hardware and software setup, including system 
+                    configuration, login validation, and app verification for migration</li>
+                    <li>
+                        - Documented and tracked inventory data for quality assurance and  
+                        testing workflows
+                    </li>
+                    <li>- Followed technical procedures and worked with leads to resolve issues </li>
+                </ul>
+                <br />
+                <h4><b>Assistant Manager</b></h4>
                 Busy Bee Cleaners LLC, Aurora, CO <br />
                 May 2023 – August 2023
                 <br />
@@ -43,14 +57,12 @@ const Experience: React.FC = () => {
                         create <br />
                         and distribute schedules to keep members informed of changes
                     </li>
-                    <li>- Visited 10–20 customer sites weekly for routine cleaning</li>
                     <li>
                         - Translated from Spanish to English for team communication
                     </li>
                 </ul>
                 <br />
-                <b>Warehouse Worker</b>
-                <br />
+                <h4><b>Warehouse Worker</b></h4>
                 Amazon Fresh, Aurora, CO <br />
                 August 2019 – March 2020 <br />
                 <br />
@@ -63,8 +75,7 @@ const Experience: React.FC = () => {
                     <li>- Processed between 200-400 items</li>
                 </ul>
                 <br />
-                <b>Greenskeeper</b>
-                <br />
+                <h4><b>Greenskeeper</b></h4>
                 Las Campanas, Santa Fe, NM <br />
                 May 2017 – August 2018
                 <br />
@@ -72,15 +83,16 @@ const Experience: React.FC = () => {
                 <ul>
                     <li>- Led teams of 4–6 people</li>
                     <li>
-                        - Employed teamwork to ensure all grass was well-maintained
+                        - Employed teamwork to ensure all grass <br />was well-maintained
                         before opening
                     </li>
                     <li>
-                        - Practiced effective time management to ensure the crew
+                        - Practiced effective time management to <br/>ensure the crew
                         completed their tasks on time
                     </li>
                 </ul>
                 <br />
+                <br/>
             </div>
         </div>
     );
