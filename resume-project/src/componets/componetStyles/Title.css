@@ -3,8 +3,9 @@
     background-size: cover; /* Ensures the GIF covers the entire container */
   
     background-repeat: no-repeat; /* Prevents repeating the GIF */
-    max-width: 80%; /* Match the container's max-width */
-    height: 250px; /* Set height to auto to allow content to determine the height */
+
+    max-width: 80%;
+    min-height: 300px; /* Allows it to grow but sets a minimum */
     border: 5px solid #20282b; /* Optional: Add a border for contrast */
     border-radius: 12px;
     margin: 100px auto; /* Center the container horizontally */
@@ -13,7 +14,7 @@
     justify-content: center; /* Centers the content horizontally */
     align-items: center; /* Centers the content vertically */
     transition: transform 0.3s ease-in-out; /* Smooth zoom on hover */
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 1); /* Optional: Subtle shadow for depth */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1); /* Optional: Subtle shadow for depth */
     box-sizing: border-box; /* Ensure padding is included in width calculations */
 }
 
@@ -50,6 +51,7 @@
 }
 
 .title-words {
+    padding-top: 5px;
     color: #000000; /* Set text color */
     text-align: center; /* Center text */
 }

@@ -20,27 +20,30 @@ const TechSkills: React.FC = () => {
             </div>
             <div className="colTwo">
                 <div className="Title">
-                    <h3>
+                    <h1>
                         <b>
                             <u>Technical Skills</u>
                         </b>
-                    </h3>
+                    </h1>
                 </div>
                 <p>
                     <br />
-                    <b>Languages:</b>
+                    <h4><b>Languages:</b></h4>
+                    Python, Java, C, HTML, Kotlin, <br /> Ruby, JavaScript, TypeScript, React <br /> SQL, Shell Scripting, Bash
                     <br />
-                    Python, Java, C, HTML, Kotlin, <br /> Ruby, JavaScript, TypeScript, React
                     <br />
-                    <br />
-                    <b>Applications:</b>
-                    <br />
+                    <h4><b>Applications:</b></h4>
                     Android Studio, GitHub, MS Excel, <br /> MS PowerPoint, Docker, Unity
                     <br />
                     <br />
-                    <b>Operating Systems:</b>
-                    <br />
+                    <h4><b>Operating Systems:</b></h4>
                     Linux, Apple, Windows
+                    <br />
+                    <br />
+                    <h4><b>Developer Tools and Methods</b></h4>
+                    Git, Github, Agile (Scrum/Kanban)
+                    <br />
+                    <br />
                 </p>
             </div>
         </div>
