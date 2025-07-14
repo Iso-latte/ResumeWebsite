@@ -55,10 +55,10 @@ function Navbar() {
         >
           <div className="navbar-nav">
 
-            <Link to="/" className='nav-link'>
+            <a href="/" className="nav-link" onClick={() => window.location.href = '/'}>
               <img src="./Home.png" alt="House_photo" />
               Home
-            </Link>
+            </a>
             {/*
             <Link to="/projects/" className='nav-link'>
               <img src="./Projects.png" alt="Pile_of_papers" />

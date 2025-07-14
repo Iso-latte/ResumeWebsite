@@ -42,7 +42,7 @@
 
 .container .colTwo {
   flex-grow: 1; /* Allow colTwo to grow and take up remaining space */
-  background-color: #ffffff;
+  background-color: #0f0f0f;
   padding: 10px; /* Uniform padding all around */
   margin: 2% 0; /* Consistent spacing */
   margin-right: 15px;
@@ -50,6 +50,7 @@
   border-radius: 12px;
   box-sizing: border-box; /* Ensure padding is accounted for in the width */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+  color: white;
   font-family: "Times New Roman", Times, serif;
 }
 

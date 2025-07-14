@@ -21,7 +21,7 @@ const Title: React.FC = () => {
                             <img src="./yt_icon_rgb.png" alt="YouTube" width="35" height="30"style={{ marginRight: '15px' }} />
                         </a>
                         <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-                            <img src="./github-mark.png" alt="GitHub" width="30" height="30" style={{ marginRight: '15px' }}/>
+                            <img src="./github-mark-white.png" alt="GitHub" width="30" height="30" style={{ marginRight: '15px' }}/>
                         </a>
                         <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
                             <img src="./LI-In-Bug.png" alt="LinkedIn" width="35" height="30" />

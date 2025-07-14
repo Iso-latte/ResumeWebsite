@@ -15,10 +15,11 @@
     transition: transform 0.3s ease-in-out; /* Smooth zoom on hover */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 1); /* Optional: Subtle shadow for depth */
     box-sizing: border-box; /* Ensure padding is included in width calculations */
+
 }
 
 .background {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(10, 10, 10, 0.9);
     width: 90%;
     height: 90%;
     border-radius: 12px;
@@ -52,6 +53,17 @@
 
 .title-words {
     padding-top: 5px;
-    color: #000000; /* Set text color */
+    color: #ffffff; /* Set text color */
     text-align: center; /* Center text */
 }
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .container-title {
+    flex-direction: column; /* Stack columns vertically on smaller screens */
+  }
+
+  .container-title .row{
+    width: 100%; /* Full width for smaller screens */
+  }
+}
+
