@@ -26,10 +26,45 @@ const Experience: React.FC = () => {
                         </b>
                     </h1>
                 </div>
+                        <br />
+                <h4><b>Commission Sales Associate, Build Your Own Department</b></h4>
+                Micro Center, Denver, CO <br />
+                August 2025 - Present
+                <br />
+                <br />
+                <ul>
+                    <li>
+                        - Delivered front-line technical support by diagnosing and resolving hardware and software issues for desktops, laptops, and peripheral devices.
+                    </li>
+                    <li>
+                        - Troubleshot a wide range of customer issues, including Windows errors, network and browser problems, and driver conflicts, providing clear end-user guidance and education.
+                    </li>
+                    <li>
+                        - Performed hands-on hardware repairs and upgrades, including RAM, hard drives, and other internal components.
+                    </li>
+                    <li>
+                        - Built and configured custom computer systems tailored to customer specifications and performance needs.
+                    </li>
+                    <li>
+                        - Analyzed devices brought in by customers to identify root causes of technical issues and recommend optimal solutions.
+                    </li>
+                    <li>
+                        - Maintained up-to-date knowledge of emerging technologies and products to deliver informed recommendations and effective setups.
+                    </li>
+                     <li>
+                        - Thrived in fast-paced, high-pressure environments while consistently meeting performance targets and delivering exceptional customer service.
+                    </li>
+                    <li>
+                        - Followed established troubleshooting processes and documentation standards to ensure consistent, efficient issue resolution.
+                    </li>
+                    <li>
+                        - Maintained a clean, organized workspace and implemented daily routines to support operational efficiency.
+                    </li>
+                </ul>
                 <br />
                 <h4><b>IT Migration Technician</b></h4>
-                Apex Systems / CompuCom, Denver, CO <br />
-                June, 2025
+                Cigna, Denver, CO <br />
+                June 2025 - July 2025
                 <br />
                 <br />
                 <ul>
@@ -40,26 +75,6 @@ const Experience: React.FC = () => {
                         testing workflows
                     </li>
                     <li>- Followed technical procedures and worked with leads to resolve issues </li>
-                </ul>
-                <br />
-                <h4><b>Assistant Manager</b></h4>
-                Busy Bee Cleaners LLC, Aurora, CO <br />
-                May 2023 – August 2023
-                <br />
-                <br />
-                <ul>
-                    <li>- Led teams of 4-6 people</li>
-                    <li>
-                        - Utilized time management to ensure jobs completed on schedule
-                    </li>
-                    <li>
-                        - Identified needs for staffing, used organizational skills to
-                        create <br />
-                        and distribute schedules to keep members informed of changes
-                    </li>
-                    <li>
-                        - Translated from Spanish to English for team communication
-                    </li>
                 </ul>
                 <br />
                 <h4><b>Warehouse Worker</b></h4>

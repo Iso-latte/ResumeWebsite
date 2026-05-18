@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './componetStyles/Navbar.css';
-import { Link } from 'react-router-dom'; 
+{/*import { Link } from 'react-router-dom'; */}
 
 function Navbar() {
   const [isCollapsed, setIsCollapsed] = useState(true);
