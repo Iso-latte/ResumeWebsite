@@ -1,0 +1,113 @@
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #21292c; /* Dark background */
+  padding: 10px 15px;
+  z-index: 1030;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+  position: fixed; /* Keep navbar at the top */
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  align-items: center; /* Align content vertically */
+}
+
+.navbar-left {
+  gap: 10px;
+}
+
+.navbar-right .backdrop, .navbar-left .backdrop {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 10px 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Collapse Navbar */
+.collapse.navbar-collapse {
+  display: none; /* Initially hidden */
+  position: absolute;
+  top: 100%; /* Place dropdown right below the navbar */
+  left: 0;
+  right: 0;
+  background-color: #202830e6;
+  z-index: 1029;
+  padding: 15px;
+  text-align: left;
+  border-radius: 0px 0px 3px 3px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+
+/* Show the collapse when toggled */
+.collapse.show {
+  display: block; /* Show the dropdown */
+  width: 200px;
+  opacity: 1;
+  transform: translateY(0); /* Adds smooth sliding effect */
+}
+/* Hamburger Button */
+.navbar-toggler {
+  margin-right: 10px;
+}
+
+/* Hover Effects */
+.navbar-right a img,
+.navbar-left img {
+  transition: transform 0.2s ease;
+}
+
+.navbar-right a img:hover {
+  transform: scale(1.4);
+}
+
+.navbar-left span {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  border-bottom: 2px solid transparent;
+  font-size: 20px;
+  padding: 12px 20px;
+  font-weight: 300; /* Make links bold */
+  letter-spacing: 1px; /* Slight spacing for readability */
+  font-family: "Times New Roman", Times, serif;
+  transition: all 0.3s ease;
+
+}
+
+/* Hover effect for nav-link */
+.navbar-nav .nav-link:hover {
+  transform: scale(1.01);
+  background-color: rgba(255, 255, 255, 0.1); /* Slight background color change */
+  border-bottom: 2px solid #c6d8ff; /* Golden underline effect */
+}
+
+.navbar-nav .nav-link img{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px; /* Add space between the image and the text */
+}
+
+@media (max-width: 768px) {
+  .collapse.navbar-collapse {
+    width: 100%;
+    left: 0;
+  }
+}

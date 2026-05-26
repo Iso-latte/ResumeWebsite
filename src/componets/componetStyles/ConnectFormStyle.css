@@ -1,0 +1,12 @@
+
+.container-form {
+    /*background-color: #20282b; /* Light background */
+    background-color: white;
+    max-width: 80%;
+    margin: 100px auto; /* Center the container horizontally */
+    padding: 20px;
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out; /* Smooth zoom on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1); /* Optional: Subtle shadow for depth */
+  }
+  
